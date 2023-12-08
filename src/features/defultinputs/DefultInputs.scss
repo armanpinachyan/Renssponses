@@ -1,0 +1,32 @@
+
+
+.defaultInputs{
+  width: 100%;
+  &.quotation{
+    position: relative;
+    .interrogative{
+      position: absolute;
+      right: 12px;
+      bottom: 12px;
+    }
+  }
+  input{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: #E5E5F8;
+    padding: 0.9375rem 0 0.9375rem 1.25rem;
+    color: #333;
+    font-size: 16px;
+    &.error{
+      background: #FFCECE;
+      &::placeholder{
+        color: #FF6C6C;
+      }
+    }
+    &::placeholder{
+      color: #A8A8BE;
+      font-size: 16px;
+    }
+  }
+}
